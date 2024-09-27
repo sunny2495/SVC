@@ -1,0 +1,75 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background: #e0e0e0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone {
+    width: 300px;
+    height: 667px;
+    background: url('Mobile\ Mockukp.png') no-repeat center center;
+    background-size: contain;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #333;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    font-family: cursive;
+    font-weight: 300;
+    h1 {
+        line-height: 00;  /* Adjusts the spacing between lines in the h1 element */
+        
+    }
+}
+
+
+header img.logo {
+    width: 150px; /* Reduced logo size */
+}
+
+.contact-info p, .social-icons a {
+    display: horizontal;
+    text-align: center;
+    margin: 10px 0;
+    color: #333;
+    font-family: cursive;
+}
+
+.contact-info p a, .social-icons a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.social-icons a {
+    font-size: 24px;
+    margin: 0 10px;
+    position: relative;
+    left: 35px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+button:hover {
+    background: #0056b3;
+}
